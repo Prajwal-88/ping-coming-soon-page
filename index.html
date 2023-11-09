@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- font awesom link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+
+  <!-- css link -->
+  <link rel="stylesheet" href="./src/app/dist/output.css">
+  <!-- js link -->
+  <script src="./src/app/js/script.js" defer></script>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class=" min-h-screen font-Libre mt-20 px-7 md:grid md:place-content-center">
+  <div class="wrapper max-w-[730px]">
+    <header class="grid place-items-center mb-8">
+      <img src="./asstets/images/logo.svg" alt="" class="h-4 mb-7">
+      <h1 class="font-thin text-[25px] text-Gray mb-2.5 md:text-[35px]"> We are launching <strong class="font-semibold text-black">soon!</strong></h1>
+      <p class="text-lg">Subscribe and get notified</p>
+    </header>
+  
+    <main class="grid place-items-center mb-24" id="main">
+      <form action="/" method="post" class="w-full md:grid md:grid-cols-[1fr_minmax(auto,_220px)] md:gap-4 md:mb-20" id="form">
+        <input type="text" placeholder="Your email adress..." class=" border border-Pale_Blue rounded-full outline-none w-full py-3 ps-7 mb-3 text-sm md:h-full " id="email">
+        <input type="submit" value="Notify Me" class="rounded-full w-full py-3  bg-Blue text-sm text-white font-semibold mb-20 border border-Blue shadow-xl md:mb-0 cursor-pointer  hover:bg-blue-400 transition-all duration-200 ease-linear " id="submit"> 
+      </form>
+      <img src="./asstets/images/illustration-dashboard.png" alt="" class=" w-full">
+    </main>
+    
+    <footer class="text-center md:text-lg md:pb-8">
+      <div class="flex justify-center gap-4 mb-5">
+        <i class="fa-brands fa-facebook-f text-Blue border border-Blue rounded-full py-2 px-[11px] hover:bg-Blue hover:text-white transition-all duration-200 ease-linear"></i>
+        <i class="fa-brands fa-twitter text-Blue border border-Blue rounded-full p-2 hover:bg-Blue hover:text-white transition-all duration-200 ease-linear"></i>
+        <i class="fa-brands fa-instagram text-Blue px-[10px] py-2 border border-Blue rounded-full hover:bg-Blue hover:text-white transition-all duration-200 ease-linear"></i>
+      </div>
+      <p class="text-xs text-Gray md:text-sm">&copy; Copyright Ping. All rights reserved.
+      </p>
+    </footer>
+  </div>
+  
+</body>
+</html>
